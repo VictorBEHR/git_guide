@@ -62,6 +62,13 @@
           <p>git pull</p>
           <p>Comando para atualizar o repositório local com as novas alterações do repositório na nuvem.</p>          
         </li>
+        <li>
+          <p>git reset</p>
+          <p>Comando para retornar à um commit anterior, desfazendo ou não tudo o que foi feito.</p>
+          <ul>Parâmetros
+            <li>--hard : desfaz tudo o que foi feito e apaga todos os commits posteriores ao commit escolhido</li>             
+          </ul>
+        </li>
       </ul>
     </div>
   </body>
