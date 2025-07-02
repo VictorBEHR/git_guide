@@ -18,7 +18,9 @@ rm -i documento.txt <<apagar com confirmação>>
 rmdir nome_da_pasta <<apagar diretório vazio>>
 rm -r nome_da_pasta <<apagar diretório com conteúdo>>
 
-Mover:
+- Mover:
 mv arquivo.txt minha_pasta/ <<move arquivo>>
 mv *.txt minha_pasta/ <<move todos os arquivos .txt para a pasta>>
 mv pasta1/ pasta_destino/ <<move uma pasta>>
+
+PS: Para renomar - Comando mv Nome_arquivo.extensão Novo_nome.extensão

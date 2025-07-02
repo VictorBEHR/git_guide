@@ -1,5 +1,4 @@
-ls >> lista
-cd <pasta>
+HEAD == mais atual
 
 git add <nome do arquivgit clo>
 git add . <tudo o que está na pasta, ele monitora>
@@ -12,8 +11,6 @@ git push <para onde: origin> <branch:main>
 git push origin main
 git pull <branch>
 git diff
-
-HEAD mais atual
 
 git revert <codigo> não salva, apenas reverte
 
