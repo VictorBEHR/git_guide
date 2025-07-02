@@ -1,5 +1,6 @@
 HEAD == mais atual
 
+git clone <<link do diretório>>
 git add <nome do arquivgit clo>
 git add . <tudo o que está na pasta, ele monitora>
 git add -A <monitora tudo o que foi incluído e exluído>
