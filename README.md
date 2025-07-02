@@ -26,7 +26,7 @@
       <ul>
         <li>
           <p>ctrl+shift+v</p>
-          <p>Para melhor visualização do arquivo HTML</p>
+          <p>Para melhor visualização do arquivo HTML no VSCode</p>
         </li>
       </ul>
     </div>
