@@ -1,0 +1,15 @@
+code arquivo.txt <<abrir no vscode>>
+
+ls <<lista o conteúdo da pasta>>
+cd <<pasta>>
+cd .. <<volta uma pasta>>
+
+- Criar:
+touch nome_do_arquivo.txt <<cria arquivo .txt vazio>>
+echo "Este é o conteúdo" > nome_do_arquivo.txt <<cria já escrevendo o conteúdo>>
+
+- Apagar:
+rm arquivo1.txt arquivo2.txt <<apagar arquivos>>
+rm -i documento.txt <<apagar com confirmação>>
+rmdir nome_da_pasta <<apagar diretório vazio>>
+rm -r nome_da_pasta <<apagar diretório com conteúdo>>
