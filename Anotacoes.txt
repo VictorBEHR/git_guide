@@ -1,0 +1,21 @@
+ls >> lista
+cd <pasta>
+
+git add <nome do arquivgit clo>
+git add . <tudo o que está na pasta, ele monitora>
+git add -A <monitora tudo o que foi incluído e exluído>
+git commit -m "<mensagem>"
+git log <cada commit tem um identificador>
+git branch <lista as branches da máquina *branch que está>
+git remote <mostra os repositórios remotos>
+git push <para onde: origin> <branch:main>
+git push origin main
+git pull <branch>
+git diff
+
+HEAD mais atual
+
+git revert <codigo> não salva, apenas reverte
+
+git stash <joga fora tudo o que não foi add>
+git reset --hard
