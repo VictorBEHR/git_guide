@@ -5,11 +5,20 @@ cd <<pasta>>
 cd .. <<volta uma pasta>>
 
 - Criar:
+	Arquivos:
 touch nome_do_arquivo.txt <<cria arquivo .txt vazio>>
 echo "Este é o conteúdo" > nome_do_arquivo.txt <<cria já escrevendo o conteúdo>>
+	Pasta:
+mkdir nome_da_pasta <<cria pasta>>
+mkdir -p projetos/2025/controle <<cria estrutura>>
 
 - Apagar:
 rm arquivo1.txt arquivo2.txt <<apagar arquivos>>
 rm -i documento.txt <<apagar com confirmação>>
 rmdir nome_da_pasta <<apagar diretório vazio>>
 rm -r nome_da_pasta <<apagar diretório com conteúdo>>
+
+Mover:
+mv arquivo.txt minha_pasta/ <<move arquivo>>
+mv *.txt minha_pasta/ <<move todos os arquivos .txt para a pasta>>
+mv pasta1/ pasta_destino/ <<move uma pasta>>
