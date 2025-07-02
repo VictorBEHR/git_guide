@@ -25,5 +25,7 @@ mv pasta1/ pasta_destino/ <<move uma pasta>>
 
 - Copiar:
 cp -r Pasta destino/ <<necessário -r para copiar tudo dentro da pasta>>
+	Para mover a um endereço, usar aspas duplas no caminho:
+		cp -r Pasta "destino"
 
 PS: Para renomar - Comando mv Nome_arquivo.extensão Novo_nome.extensão
