@@ -17,3 +17,5 @@ git revert <codigo> não salva, apenas reverte
 
 git stash <joga fora tudo o que não foi add>
 git reset --hard
+
+git fetch
